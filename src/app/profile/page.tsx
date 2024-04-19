@@ -34,10 +34,7 @@ const getUserDetails = async () => {
         <h1>profile page</h1>
         
         <button onClick={logout} className="shadow bg-purple-500 hover:bg-purple-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" type="button">
-
-          
-      
-      </button>
+Logout</button>
 
       <h2>{data === 'nothing' ? "nothing" : <Link
           href={`/profile/${data}`}>{data}</Link>}</h2>
